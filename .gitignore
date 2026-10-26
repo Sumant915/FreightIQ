@@ -1,0 +1,31 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local logs, temporary files, and database artifacts
+*.log
+*.tmp
+*.bak
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.tar
+*.tar.gz
+*.zip
+tmp/
+temp/
